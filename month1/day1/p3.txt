@@ -1,0 +1,9 @@
+config-5.13.0-30-generic      memtest86+.elf
+config-5.13.0-35-generic      memtest86+_multiboot.bin
+efi                           System.map-5.13.0-30-generic
+grub                          System.map-5.13.0-35-generic
+initrd.img                    vmlinuz
+initrd.img-5.13.0-30-generic  vmlinuz-5.13.0-30-generic
+initrd.img-5.13.0-35-generic  vmlinuz-5.13.0-35-generic
+initrd.img.old                vmlinuz.old
+memtest86+.bin

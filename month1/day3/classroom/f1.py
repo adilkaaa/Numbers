@@ -1,0 +1,5 @@
+k = int(input('sum of credit: '))
+p = int(input('procent stavka: '))
+m = int(input('month: '))
+a = k*0.01*p*(1+0.01*p)**m/((1+0.01*p)**m-1)
+print(f'a = {a}')
